@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="pers.qingyu.home.dao.HomeDao">
+
+	<!--void insertHome(HomeBean home); -->
+	<insert id="insertHome">
+		insert into home (
+			home_location, home_Information, home_include, service
+		) value (
+			#{homeLocation}, #{homeInformation}, #{homeInclude}, #{service}
+		)
+	</insert>
+	
+	<!-- ArrayList<HomeBean> queryHomeList(); -->
+	<select id="queryHomeList" resultType="pers.qingyu.home.bean.HomeBean">
+		select 
+			*
+		from 
+			home
+	</select>
+	
+ 	
+</mapper>

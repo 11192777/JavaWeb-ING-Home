@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="pers.qingyu.home.dao.UserDao">
+
+	<!-- void insertUser (UserBean user); -->
+	<insert id="insertUser">
+		insert into home_user (
+			user_id, user_passwd, phone_number
+		) value (
+			#{userId}, #{userPasswd}, #{phoneNumber}
+		)
+	</insert>
+	
+	<!-- UserBean queryUserById(String userId); -->
+ 	<select id="queryUserById" resultType="pers.qingyu.home.bean.UserBean">
+ 		select 
+ 			* 
+ 		from home_user
+ 		where user_id = #{userId}
+ 	</select>
+ 	
+ 	<!-- UserBean verifyPasswd (UserBean user); -->
+ 	<select id="verifyPasswd" resultType="pers.qingyu.home.bean.UserBean">
+ 		select 
+ 			*
+ 		from home_user 
+ 		where user_id = #{userId} and user_passwd = #{userPasswd}
+ 	</select>
+ 	
+</mapper>

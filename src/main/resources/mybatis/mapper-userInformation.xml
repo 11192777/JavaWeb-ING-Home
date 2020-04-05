@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="pers.qingyu.home.dao.UserInformationDao">
+
+	<!-- void insertUserInformation(UserInformationBean userInformation); -->
+ 	<insert id="insertUserInformation">
+ 		insert into user_information (
+ 			user_id, user_name, head_img_path, user_sex, user_age, idCard, hosting, location
+ 		) values (
+ 			#{userId}, #{userName}, #{headImgPath}, #{userSex}, #{userAge}, #{idCard}, #{hosting}, #{location}
+ 		)
+ 	</insert>
+	
+	
+	<!-- UserInformationBean queryUserInformationById(String userId); -->
+ 	<select id="queryUserInformationById" resultType="pers.qingyu.home.bean.UserInformationBean">
+ 		select
+ 			*
+ 		from 
+ 			user_information
+ 		where
+ 			user_id = #{userId}
+ 	</select>
+ 	
+ 	
+ 	
+</mapper>
