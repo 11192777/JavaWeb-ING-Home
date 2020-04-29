@@ -4,7 +4,7 @@
 		<ul style="padding-left:0px;" class="list-group">
 			<li class="list-group-item"><span><i class="glyphicon glyphicon-cloud"></i> 交友圈<span class="badge" style="float:right">3</span></span>
 				<ul style="margin-top:10px;">
-					<li style="height:30px;"><a href="${APP_PATH}/user.html"><i class="glyphicon glyphicon-check"></i> 交友圈</a></li>
+					<li style="height:30px;"><a href="${APP_PATH}/friend/message"><i class="glyphicon glyphicon-check"></i> 交友圈</a></li>
 					<li style="height:30px;"><a href="${APP_PATH}/role.html"><i class="glyphicon glyphicon-check"></i> 发表说说</a></li>
 					<li style="height:30px;"><a href="${APP_PATH}/permission.html"><i class="glyphicon glyphicon-check"></i> 我的说说</a></li>
 				</ul></li>
