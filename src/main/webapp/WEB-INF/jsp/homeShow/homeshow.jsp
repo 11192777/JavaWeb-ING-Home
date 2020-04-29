@@ -100,7 +100,7 @@
 								<ul class="stuff">
 									<li><i class="icon-heart2"></i>249</li>
 									<li><i class="icon-eye2"></i>308</li>
-									<li><a href="#">Read More<i class="icon-arrow-right22"></i></a></li>
+									<li><a href="${APP_PATH}/housing/show">Read More<i class="icon-arrow-right22"></i></a></li>
 								</ul>
 							</div>
 						</div>
@@ -117,7 +117,7 @@
 								<ul class="stuff">
 									<li><i class="icon-heart2"></i>249</li>
 									<li><i class="icon-eye2"></i>308</li>
-									<li><a href="#">Read More<i class="icon-arrow-right22"></i></a></li>
+									<li><a href="${APP_PATH}/housing/show">Read More<i class="icon-arrow-right22"></i></a></li>
 								</ul>
 							</div>
 						</div>
@@ -134,7 +134,7 @@
 								<ul class="stuff">
 									<li><i class="icon-heart2"></i>249</li>
 									<li><i class="icon-eye2"></i>308</li>
-									<li><a href="#">Read More<i class="icon-arrow-right22"></i></a></li>
+									<li><a href="${APP_PATH}/housing/show">Read More<i class="icon-arrow-right22"></i></a></li>
 								</ul>
 							</div>
 						</div>
@@ -151,7 +151,7 @@
 								<ul class="stuff">
 									<li><i class="icon-heart2"></i>249</li>
 									<li><i class="icon-eye2"></i>308</li>
-									<li><a href="#">Read More<i class="icon-arrow-right22"></i></a></li>
+									<li><a href="${APP_PATH}/housing/show">Read More<i class="icon-arrow-right22"></i></a></li>
 								</ul>
 							</div>
 						</div>
@@ -168,7 +168,7 @@
 								<ul class="stuff">
 									<li><i class="icon-heart2"></i>249</li>
 									<li><i class="icon-eye2"></i>308</li>
-									<li><a href="#">Read More<i class="icon-arrow-right22"></i></a></li>
+									<li><a href="${APP_PATH}/housing/show">Read More<i class="icon-arrow-right22"></i></a></li>
 								</ul>
 							</div>
 						</div>
@@ -185,7 +185,7 @@
 								<ul class="stuff">
 									<li><i class="icon-heart2"></i>249</li>
 									<li><i class="icon-eye2"></i>308</li>
-									<li><a href="#">Read More<i class="icon-arrow-right22"></i></a></li>
+									<li><a href="${APP_PATH}/housing/show">Read More<i class="icon-arrow-right22"></i></a></li>
 								</ul>
 							</div>
 						</div>
@@ -202,7 +202,7 @@
 								<ul class="stuff">
 									<li><i class="icon-heart2"></i>249</li>
 									<li><i class="icon-eye2"></i>308</li>
-									<li><a href="#">Read More<i class="icon-arrow-right22"></i></a></li>
+									<li><a href="${APP_PATH}/housing/show">Read More<i class="icon-arrow-right22"></i></a></li>
 								</ul>
 							</div>
 						</div>
@@ -219,7 +219,7 @@
 								<ul class="stuff">
 									<li><i class="icon-heart2"></i>249</li>
 									<li><i class="icon-eye2"></i>308</li>
-									<li><a href="#">Read More<i class="icon-arrow-right22"></i></a></li>
+									<li><a href="${APP_PATH}/housing/show">Read More<i class="icon-arrow-right22"></i></a></li>
 								</ul>
 							</div>
 						</div>
@@ -236,7 +236,7 @@
 								<ul class="stuff">
 									<li><i class="icon-heart2"></i>249</li>
 									<li><i class="icon-eye2"></i>308</li>
-									<li><a href="#">Read More<i class="icon-arrow-right22"></i></a></li>
+									<li><a href="${APP_PATH}/housing/show">Read More<i class="icon-arrow-right22"></i></a></li>
 								</ul>
 							</div>
 						</div>

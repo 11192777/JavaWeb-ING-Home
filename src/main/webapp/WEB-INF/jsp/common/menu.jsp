@@ -15,9 +15,9 @@
 			<li class="list-group-item"><span><i class="glyphicon glyphicon-home"></i> 租房 <span class="badge" style="float:right">1</span></span>
 				<ul style="margin-top:10px;">
 					<li style="height:30px;"><a href="${APP_PATH}/homeShow/showHomes"><i class="glyphicon glyphicon-check"></i> 浏览房源</a></li>
-					<li style="height:30px;"><a href="${APP_PATH}/type.html"><i class="glyphicon glyphicon-check"></i> 心愿单</a></li>
+					<li style="height:30px;"><a href="${APP_PATH}/favorite/homes"><i class="glyphicon glyphicon-check"></i> 心愿单</a></li>
 					<li style="height:30px;"><a href="${APP_PATH}/process.html"><i class="glyphicon glyphicon-check"></i> 预约单</a></li>
-					<li style="height:30px;"><a href="${APP_PATH}/advertisement.html"><i class="glyphicon glyphicon-check"></i> 住房记录</a></li>
+					<li style="height:30px;"><a href="${APP_PATH}/record/show"><i class="glyphicon glyphicon-check"></i> 住房记录</a></li>
 				</ul></li>
 			<li class="list-group-item"><span><i class="glyphicon glyphicon-user"></i> 我的<span class="badge" style="float:right">5</span></span>
 				<ul style="margin-top:10px;">
