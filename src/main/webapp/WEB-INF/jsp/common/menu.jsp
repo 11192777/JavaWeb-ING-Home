@@ -25,7 +25,8 @@
 					<li style="height:30px;"><a href="${APP_PATH}/mine/host/step1"><i class="glyphicon glyphicon-check"></i> 成为房东</a></li>
 					<li style="height:30px;"><a href="${APP_PATH}/mine/tenant"><i class="glyphicon glyphicon-check"></i> 我的租客</a></li>
 					<li style="height:30px;"><a href="${APP_PATH}/mine/myHome"><i class="glyphicon glyphicon-check"></i> 我的房子</a></li>
-					<li style="height:30px;"><a href="${APP_PATH}/message.html"><i class="glyphicon glyphicon-check"></i> 出入记录</a></li>
+					<li style="height:30px;"><a href="${APP_PATH}/code/codeServer"><i class="glyphicon glyphicon-check"></i> 二维码服务</a></li>
+					<li style="height:30px;"><a href="${APP_PATH}/record/mineRecord"><i class="glyphicon glyphicon-check"></i> 个人出入记录</a></li>
 				</ul></li>
 		</ul>
 	</div>
